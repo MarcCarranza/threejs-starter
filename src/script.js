@@ -10,6 +10,7 @@ import { TextGeometry } from "three/examples/jsm/geometries/TextGeometry";
  */
 // Debug
 const gui = new dat.GUI();
+gui.hide()
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
@@ -70,8 +71,8 @@ fontLoader.load("fonts/helvetiker_regular.typeface.json", (font) => {
   scene.add(text);
 
   // Debug
-  const fontFolder = gui.addFolder("Font");
-  fontFolder.add(textMaterial, "wireframe");
+  // const fontFolder = gui.addFolder("Font");
+  // fontFolder.add(textMaterial, "wireframe");
 });
 
 /**
