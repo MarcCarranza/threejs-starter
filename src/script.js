@@ -9,8 +9,7 @@ import { TextGeometry } from "three/examples/jsm/geometries/TextGeometry";
  * Base
  */
 // Debug
-const gui = new dat.GUI();
-gui.hide()
+// const gui = new dat.GUI();
 
 // Canvas
 const canvas = document.querySelector("canvas.webgl");
@@ -19,7 +18,7 @@ const canvas = document.querySelector("canvas.webgl");
 const scene = new THREE.Scene();
 
 // Axes helper
-const axesHelper = new THREE.AxesHelper();
+// const axesHelper = new THREE.AxesHelper();
 // scene.add(axesHelper);
 
 /**
