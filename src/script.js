@@ -25,8 +25,8 @@ const scene = new THREE.Scene();
  * Textures
  */
 const textureLoader = new THREE.TextureLoader();
-const mtcpTextureShiny = textureLoader.load("/textures/matcaps/3.png");
-const mtcpTextureText = textureLoader.load("/textures/matcaps/4.png")
+const mtcpTextureShiny = textureLoader.load("textures/matcaps/3.png");
+const mtcpTextureText = textureLoader.load("textures/matcaps/4.png")
 
 /**
  * Fonts
